@@ -1,1 +1,1 @@
-Criando uma lampada usando Javascript.
+Criando uma lampada com Javascript.

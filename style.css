@@ -1,0 +1,41 @@
+body {
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.h1 {
+  font-family: "JetBrains Mono",monospace, sans-serif;
+  margin-top: 150px;
+  font-size: 1.2em;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#btn-ligar, #btn-desligar {
+  width: 80px;
+  height: 30px;
+  font-family: "JetBrains Mono",monospace, sans-serif;
+  border: transparent;
+  background-color: rgb(126, 146, 147);
+  border-radius: 5px;
+  margin: 5px;
+  color: white;
+  transition: .2s;
+  box-shadow: rgba(0, 0, 0, 0.50) 0px 3px 8px;
+}
+
+#btn-ligar:hover, #btn-desligar:hover {
+  width: 85px;
+  height: 35px;
+  box-shadow: rgb(38, 57, 77) 0px 10px 15px -5px;
+}
+

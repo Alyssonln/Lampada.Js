@@ -10,6 +10,7 @@ body {
   font-family: "JetBrains Mono",monospace, sans-serif;
   margin-top: 150px;
   font-size: 1.2em;
+  cursor: default;
 }
 
 .img {
@@ -18,6 +19,7 @@ body {
   justify-content: center;
   flex-direction: column;
   margin-bottom: 20px;
+  cursor: default;
 }
 
 #btn-ligar, #btn-desligar {
@@ -31,6 +33,7 @@ body {
   color: white;
   transition: .2s;
   box-shadow: rgba(0, 0, 0, 0.50) 0px 3px 8px;
+  cursor: pointer;
 }
 
 #btn-ligar:hover, #btn-desligar:hover {
